@@ -2,13 +2,13 @@
 
 ## Барање 2:
 
-![si lab graf](https://github.com/MatejMelovski/SI_2023_lab2_216034/assets/109023516/37eaa514-c5dd-4da1-a33f-ee09f06c2a35)
+![graph](images/graph.png)
 
 ## Барање 3:
 Цикломатската комплексност на кодот е 11. Се добива преку формулата E-M+2, каде Е е бројот на ребра на графот, а М е бројот на јазли. Во кодот Е=33, а М=24, па 33-24+2=11
 
 ## Барање 4:
-![image](https://github.com/MatejMelovski/SI_2023_lab2_216034/assets/109023516/e61bd870-94be-42c2-8ad5-0fc615a3ee1c)
+![every branch](images/every_branch.png)
 ### test case 1: user.getPassword()==null:
 Во овој test case, пасвродод на корисникот е null, па условот 'if (user==null || user.getPassword()==null || user.getEmail()==null)' ќе биде точен, па програмата ќе отиде на 'throw new RuntimeException("Mandatory information missing!");'. Со ова ќе се фрли exception и ќе заврши програмата.
 
@@ -27,7 +27,7 @@
 ## Барање 5: 
 if (user==null || user.getPassword()==null || user.getEmail()==null)
 
-![image](https://github.com/MatejMelovski/SI_2023_lab2_216034/assets/109023516/1e3b2ba5-2a2f-4090-8086-fc09fd044f99)
+![multiple condition](images/multiple_condition.png)
 ### test case 1: user==null:
 Во овој test case, user=null, односно нема корисник, па условот ќе е точен, па програмата ќе отиде по реброто A-B
 
